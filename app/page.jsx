@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { personalData } from "@/utils/data/personal-data";
 import AboutSection from "./components/homepage/about";
 import Blog from "./components/homepage/blog";
 import ContactSection from "./components/homepage/contact";
@@ -15,12 +13,12 @@ export default function Home() {
   return (
     <div>
       <HeroSection />
-      {/* <AboutSection />
+      <AboutSection />
       <Experience />
       <Skills />
       <Projects />
       <Education />
-      <ContactSection /> */}
+      <ContactSection />
     </div>
   );
 }
