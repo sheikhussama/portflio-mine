@@ -19,7 +19,6 @@ export default function Home() {
       // Simulate fetching or processing `personalData`
       setData(personalData);
     }
-
     fetchData();
   }, []);
 
