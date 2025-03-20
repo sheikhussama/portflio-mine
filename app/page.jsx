@@ -12,25 +12,15 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 export default function Home() {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    async function fetchData() {
-      // Simulate fetching or processing `personalData`
-      setData(personalData);
-    }
-    fetchData();
-  }, []);
-
   return (
     <div>
       <HeroSection />
-      <AboutSection />
+      {/* <AboutSection />
       <Experience />
       <Skills />
       <Projects />
       <Education />
-      <ContactSection />
+      <ContactSection /> */}
     </div>
   );
 }
